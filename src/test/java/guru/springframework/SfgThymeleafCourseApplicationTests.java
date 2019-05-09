@@ -14,6 +14,7 @@ public class SfgThymeleafCourseApplicationTests {
 	/** comment */
 	@Test
 	public void contextLoads() {
+		/** comment */
 	}
 
 }
