@@ -48,6 +48,15 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+	<profile>
+        <id>local</id>
+        <repositories>
+            <repository>
+                <id>nexus</id>
+                <name>libs-release</name>
+                <url>http://url to your local Nexus/artifactory/libs-release</url>
+            </repository>
+        </repositories>
+ </profile>
 
 </project>
